@@ -1,1 +1,1 @@
-export const API_PREFIX = `https://api.rasp.yandex.net/v3.0`
+export const API_PREFIX = `https://cors-anywhere.herokuapp.com/https://api.rasp.yandex.net/v3.0`
