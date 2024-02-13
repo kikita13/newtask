@@ -124,5 +124,6 @@ export class MapComponent implements OnInit {
 
   setHeight(height: number) {
     this.height = +height;
+    this.updateLayer(this.map, this.draw.getSelected().features[0]);
   }
 }
